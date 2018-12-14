@@ -1,0 +1,15 @@
+language: node_js
+sudo: true
+if: tag IS blank
+services:
+- docker
+node_js:
+- 10
+before_install:
+
+install:
+  - npm install
+script:
+  - docker build . --tag=eu.gcr.io/kube-personal/nice-note:latest
+  - docker login -u _json_key -p "$(cat account.json)" eu.gcr.io
+  - docker push eu.gcr.io/kube-personal/robin-dot-com:latest
