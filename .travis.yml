@@ -6,7 +6,7 @@ services:
 node_js:
 - 10
 before_install:
-
+  - openssl aes-256-cbc -K $encrypted_c9cf9aa7b590_key -iv $encrypted_c9cf9aa7b590_iv -in account.json.enc -out account.json -d
 install:
   - npm install
 script:
