@@ -12,4 +12,4 @@ install:
 script:
   - docker build . --tag=eu.gcr.io/kube-personal/nice-note:latest
   - docker login -u _json_key -p "$(cat account.json)" eu.gcr.io
-  - docker push eu.gcr.io/kube-personal/robin-dot-com:latest
+  - docker push eu.gcr.io/kube-personal/nice-note:latest
