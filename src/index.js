@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 const port = 8443
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.sendStatus(200))
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
