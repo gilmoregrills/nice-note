@@ -1,5 +1,5 @@
 module.exports = function(app) {
-    app.post('/', (req, res) => {
+    app.post('/webhook', (req, res) => {
         // You'll create your note here.
         console.log(req.body)
         res.send({
