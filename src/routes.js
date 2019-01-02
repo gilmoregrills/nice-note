@@ -1,8 +1,6 @@
 module.exports = function(app) {
     app.post('/webhook', (req, res, next) => {
         // You'll create your note here.
-        console.log(req.body['queryResult'])
-
         var intent = req.body['queryResult']['intent']['displayName']
         var keywords = req.body['queryResult']['parameters']['keyword']
         var user = req.body['queryResult']['parameters']['user']
