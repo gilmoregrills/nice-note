@@ -2,10 +2,6 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-<<<<<<< HEAD
-    "nodemon": "^1.18.9"
-=======
     "lerna": "^3.8.1"
->>>>>>> 8d6d656... move existing work into modules/backend
   }
 }

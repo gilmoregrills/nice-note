@@ -12,5 +12,5 @@ install:
   - cd modules/backend && npm install
 script:
   - docker build modules/backend --tag=eu.gcr.io/kube-personal/nice-note:latest
-  - docker login -u _json_key -p "$(cat ../../account.json)" eu.gcr.io
+  - docker login -u _json_key -p "$(cat account.json)" eu.gcr.io
   - docker push eu.gcr.io/kube-personal/nice-note:latest
