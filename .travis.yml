@@ -9,7 +9,7 @@ before_install:
   - openssl aes-256-cbc -K $encrypted_c9cf9aa7b590_key -iv $encrypted_c9cf9aa7b590_iv -in account.json.enc -out account.json -d
 install:
   - npm install
-  - cd modules/backend && npm install
+  - lerna bootstrap
 script:
   - docker build modules/backend --tag=eu.gcr.io/kube-personal/nice-note:latest
   - docker login -u _json_key -p "$(cat account.json)" eu.gcr.io
