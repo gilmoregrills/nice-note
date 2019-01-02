@@ -1,0 +1,20 @@
+{
+  "name": "nice_note",
+  "version": "1.0.0",
+  "description": "a small note app",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "gilmoregrills",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "electron": "^4.0.0",
+    "nodemon": "^1.18.9"
+  }
+}

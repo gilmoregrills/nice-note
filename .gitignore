@@ -1,5 +1,3 @@
 *.DS_Store
-terraform/account.json
-terraform/.terraform
-node_modules
+*node_modules
 account.json
