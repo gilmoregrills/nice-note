@@ -1,5 +1,5 @@
 {
-  "name": "nice_note",
+  "name": "@nice-note/webhook",
   "version": "1.0.0",
   "description": "a small note app",
   "main": "src/index.js",
@@ -14,7 +14,6 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
-    "electron": "^4.0.0",
     "nodemon": "^1.18.9"
   }
 }

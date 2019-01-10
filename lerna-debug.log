@@ -1,0 +1,8 @@
+0 silly argv { _: [ 'bootstrap' ],
+0 silly argv   lernaVersion: '3.8.1',
+0 silly argv   '$0': '/usr/local/bin/lerna' }
+1 notice cli v3.8.1
+2 verbose rootPath /Users/rfarrow-yonge/git/gilmoregrills/nice_note
+3 error JSONError: Unexpected token } in JSON at position 192 while parsing near '...e/component-test"  },  "scripts": {  ...' in packages/app-frontend-desktop/package.json
+3 error     at module.exports (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:26:19)
+3 error     at parse (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:8:29)

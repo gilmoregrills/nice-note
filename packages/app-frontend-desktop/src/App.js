@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '@nice-note/component-test';
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +20,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <CompButton>Foobar!</CompButton>
         </header>
       </div>
     );
