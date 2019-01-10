@@ -4,8 +4,7 @@
 	"dependencies": {
 		"react": "^16.7.0",
 		"react-dom": "^16.7.0",
-		"react-scripts": "2.1.2",
-		"@nice-note/component-test": "0.1.0"
+		"react-scripts": "2.1.2"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
